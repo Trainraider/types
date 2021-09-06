@@ -5,4 +5,4 @@ project('types', 'c',
 
 include = include_directories('.')
 
-types_def = declare_dependency(include_directories: include)
+types_dep = declare_dependency(include_directories: include)
